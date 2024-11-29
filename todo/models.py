@@ -6,7 +6,7 @@ from django.db import models
 
 # Task model 
 
-class Task (models.Model):
+class Task(models.Model):
 
     options = (
         ("pending", "Pending"),
@@ -14,9 +14,10 @@ class Task (models.Model):
         ("completed", "Completed")
     )
     
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, blank=False)
     notes = models.TextField()
     status = models.CharField(max_length=15, choices=options, default='pending')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:
         ordering = ["name"]
