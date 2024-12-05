@@ -14,4 +14,4 @@ class HomePage(TemplateView):
 
 class Task(generic.ListView):
     model = Task
-    template_name = 'index.html'
+    template_name = 'base.html'
