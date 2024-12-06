@@ -3,7 +3,7 @@
 
 
 <div class="form-container">
-    <form method="POST" action="">
+    <form method="POST" action="{% url 'task_create' %}" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
         <input class="btn btn-info" type="submit" value="Create Task">

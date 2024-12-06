@@ -18,16 +18,26 @@ class TaskList(LoginRequiredMixin, ListView):
     context_object_name = 'tasks'
     template_name = 'task_list.html'
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['form'] = TaskForm() 
+        return context
+
 class TaskCreateView(LoginRequiredMixin, CreateView):
     model = Task
     form_class = TaskForm
-    template_name = 'your_template.html'
-    success_url = reverse_lazy('tasks')
+    template_name = 'task_list.html'
+    success_url = reverse_lazy('task_list')
+
+    def TaskCreateView(request):
+        form = TaskForm()
+        context = {'form': form}
+        return render(request, 'task_list.html', context)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['form'] = TaskForm()
-        return context
+        return render(request, 'task_list.html', context)
 
     def form_valid(self, form):
         form.instance.user = self.request.user
