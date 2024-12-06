@@ -1,7 +1,39 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 {% block content %}
 
-{{ task }}
+
+<div class="form-container">
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="btn btn-info" type="submit" value="Create Task">
+    </form>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        {% for task in tasks %}
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ task.name }}</h5>
+                        <p class="card-text">{{ task.notes }}</p>
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+            <p>No tasks available.</p>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+
+
+<!-- Insert task of tasks loop** -->
 
 <!-- task_list.html content starts here -->
 
