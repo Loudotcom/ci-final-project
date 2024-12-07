@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
 
-
 <div class="form-container">
     <form method="POST" action="{% url 'task_create' %}" enctype="multipart/form-data">
         {% csrf_token %}
@@ -10,8 +9,6 @@
     </form>
 </div>
 
-
-
 <div class="container">
     <div class="row">
         {% for task in tasks %}
@@ -19,7 +16,7 @@
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">{{ task.name }}</h5>
-                        <p class="card-text">{{ task.notes }}</p>
+                        <a href="{% url 'task_update' task.id %}" class="btn btn-sm btn-info">Edit</a>
                     </div>
                 </div>
             </div>
@@ -29,14 +26,7 @@
     </div>
 </div>
 
-
-
-
-
-<!-- Insert task of tasks loop** -->
-
 <!-- task_list.html content starts here -->
-
 Hi from task_list
 <!-- task_list.html content ends here -->
 
