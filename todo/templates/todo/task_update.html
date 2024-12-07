@@ -24,7 +24,7 @@
                                 {% csrf_token %}
                                 <div class="col-12">
                                     <label for="task" class="form-label">Edit task:</label>
-                                    <input type="text" id="task" class="form-control" name="task" value="{{ task.name }}" maxlength="60" required>
+                                    <input type="text" id="task" class="form-control" name="name" value="{{ task.name }}" maxlength="60" required>
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-info">Update Task</button>
