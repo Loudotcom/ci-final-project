@@ -18,6 +18,9 @@
                         <h5 class="card-title">{{ task.name }}</h5>
                         <a href="{% url 'task_update' task.id %}" class="btn btn-sm btn-info">Edit</a>
                     </div>
+                    <div>
+                        <a href="{% url 'task_delete' task.id%}" class="btn btn-sm btn-danger">Delete</a>
+                    </div>
                 </div>
             </div>
         {% empty %}
