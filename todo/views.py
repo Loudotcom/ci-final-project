@@ -16,6 +16,9 @@ class TaskList(LoginRequiredMixin, ListView):
     context_object_name = 'tasks'
     template_name = 'task_list.html'
 
+    def get_queryset(self):
+        return Task.objects.filter(user=self.request.user)
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['form'] = TaskForm() 
@@ -51,8 +54,14 @@ class TaskUpdate(LoginRequiredMixin, UpdateView):
         form.instance.user = self.request.user
         return super().form_valid(form)
 
+    def get_queryset(self):
+        return Task.objects.filter(user=self.request.user)
+
 class TaskDeleteView(LoginRequiredMixin, DeleteView):
     model = Task
     context_object_name = 'task'
     template_name = 'todo/task_confirm_delete.html'
     success_url = reverse_lazy('task_list')
+
+    def get_queryset(self):
+        return Task.objects.filter(user=self.request.user)
