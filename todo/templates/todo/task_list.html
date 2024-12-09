@@ -1,15 +1,25 @@
 {% extends 'base.html' %}
 {% load static %}
 
+<div class="logo">
+    <img src="/static/images/task-buddies-high-resolution-logo.png" alt="logo">
+  </div>
+
 {% block content %}
 
-<div class="form-container">
-    <form method="POST" action="{% url 'task_create' %}" enctype="multipart/form-data">
+<div class="container create-task">
+    <div class="form-container">
+      <form method="POST" action="{% url 'task_create' %}" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_p }}
-        <input class="btn btn-info" type="submit" value="Create Task">
-    </form>
-</div>
+        <div class="input-group">
+          {{ form.as_p }}
+          <div class="input-group-append">
+            <button class="btn btn-info ms-2" type="submit">Create Task</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
 <div class="container">
     <div class="row">
@@ -27,6 +37,7 @@
             <p>No tasks available.</p>
         {% endfor %}
     </div>
+</div>
 </div>
 
 {% endblock %}
