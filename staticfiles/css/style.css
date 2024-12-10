@@ -1,7 +1,69 @@
-h1 {
-    color: red;
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .horizontal-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar-logo {
+    max-height: 40px;
+    margin-top: 10px;
 }
 
-.card {
-    background-color: red;
+ul {
+    list-style: none;
+}
+
+/* Body */
+
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 500px; 
+  }
+
+  #turtle {
+    margin-top: auto;
+    max-width: 100px;
+  }
+
+.create-task {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+  /* Footer  */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(153, 11, 153);
+    display: flex;
+    justify-content: start;
+    height: 5%;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+#copyright {
+    font-weight: bold;
+    color: black;
 }
