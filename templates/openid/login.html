@@ -1,12 +1,14 @@
+{% extends 'base.html' %}
 {% extends "openid/base.html" %}
+{% load static %}
 
 {% load i18n %}
 
-{% block head_title %}OpenID Sign In{% endblock head_title %}
+<!-- {% block head_title %}OpenID Sign In{% endblock head_title %} -->
 
 {% block content %}
 
-<h1>{% trans 'OpenID Sign In' %}</h1>
+<h1>{% trans 'OpenID' %}</h1>
 
 
 <form id="openid_login_form" class="openid_login" method="post" action="{% url 'openid_login' %}">
@@ -15,4 +17,4 @@
 <button type="submit">Sign In</button>
 </form>
 
-{% endblock content %}
+{% endblock %}
