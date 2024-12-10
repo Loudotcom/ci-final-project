@@ -1,10 +1,9 @@
-/* Navbar */
+/* Navbar Base*/
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
   }
 
   .horizontal-nav {
@@ -12,7 +11,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+  } */
 
 .navbar-logo {
     max-height: 40px;
@@ -23,8 +22,7 @@ ul {
     list-style: none;
 }
 
-/* Body base.html */
-
+/* Body Base */
 
 .logo {
     text-align: center;
@@ -32,7 +30,7 @@ ul {
   }
   
   .logo img {
-    max-width: 500px; 
+    max-width: 350px; 
   }
 
   #turtle {
@@ -48,6 +46,23 @@ ul {
     margin-bottom: 50px;
 }
 
+/* Body Task Update */
+
+.back-btn {
+  margin-left: 50px;
+}
+
+/* Body Task Completed */
+
+.complete-task {
+  text-align: center;
+}
+
+.complete-task h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* Body Sign Up */
 
 .signup-div {
@@ -55,7 +70,7 @@ ul {
 }
 
 
-  /* Footer  */
+  /* Footer Base */
 
 .footer {
     position: fixed;
@@ -66,12 +81,12 @@ ul {
     display: flex;
     justify-content: start;
     height: 5%;
-    border-top-width: 5px;
+    border-top-width: 2px;
     border-top-style: solid;
     border-top-color: black;
 }
 
 #copyright {
-    font-weight: bold;
+    font-weight: 500;
     color: black;
 }

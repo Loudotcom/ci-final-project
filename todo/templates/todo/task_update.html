@@ -4,10 +4,6 @@
 
 {% block content %}
 
-<div class="col-12">
-    <a href="{% url 'task_list' %}" class="btn btn-secondary">Back</a>
-</div>
-
 <div class="main-card-container">
     <div class="container h-100 py-3">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -28,6 +24,7 @@
                                     <input type="text" id="task" class="form-control" name="name" value="{{ task.name }}" maxlength="60" required>
                                 </div>
                                 <div class="col-12">
+                                    <a href="{% url 'task_list' %}" class="btn btn-secondary">Back</a>
                                     <button type="submit" class="btn btn-info">Update Task</button>
                                 </div>
                             </form>
