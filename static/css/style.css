@@ -23,7 +23,7 @@ ul {
     list-style: none;
 }
 
-/* Body */
+/* Body base.html */
 
 
 .logo {
@@ -40,10 +40,18 @@ ul {
     max-width: 100px;
   }
 
+/* Body Task List */
+
 .create-task {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+/* Body Sign Up */
+
+.signup-div {
+  text-align: center;
 }
 
 
