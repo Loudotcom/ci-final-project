@@ -40,9 +40,10 @@ ul {
 
 /* Body Sign In */
 
-#landing-header {
+.landing-header {
   text-align: center;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .btn-signup {
