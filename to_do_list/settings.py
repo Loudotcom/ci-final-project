@@ -54,10 +54,8 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'cloudinary',
     'todo',
-    'crispy_forms',
 ]
 
-# CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'

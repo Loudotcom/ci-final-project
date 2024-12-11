@@ -40,6 +40,11 @@ ul {
 
 /* Body Sign In */
 
+#landing-header {
+  text-align: center;
+  margin: auto;
+}
+
 .btn-signup {
   padding-bottom: 10px;
 }
@@ -91,7 +96,6 @@ h5.intro-text {
 .signup-div {
   text-align: center;
 }
-
 
   /* Footer Base */
 
