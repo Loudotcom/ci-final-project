@@ -6,40 +6,39 @@
   </div>
 
 {% block content %}
-
-<div class="container create-task">
-    <div class="form-container">
-      <form method="POST" action="{% url 'task_create' %}" enctype="multipart/form-data">
-        {% csrf_token %}
-        <div class="input-group">
-          {{ form.as_p }}
-          <div class="input-group-append">
-            <button class="btn btn-info ms-2" type="submit">Create Task</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-
-<div class="container">
-    <div class="row">
-        {% for task in tasks %}
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ task.name }}</h5>
-                        <a href="{% url 'task_update' task.id %}" class="btn btn-sm btn-info">Edit</a>
-                        <a href="{% url 'task_delete' task.id%}" class="btn btn-sm btn-success">Delete</a>
-                    </div>
-                </div>
+<section>
+  <div class="container create-task">
+      <div class="form-container">
+        <form method="POST" action="{% url 'task_create' %}" enctype="multipart/form-data">
+          {% csrf_token %}
+          <div class="input-group">
+            {{ form.as_p }}
+            <div class="input-group-append">
+              <button class="btn btn-info ms-2" type="submit">Create Task</button>
             </div>
-        {% empty %}
-            <p>No tasks available.</p>
-        {% endfor %}
+          </div>
+        </form>
+      </div>
     </div>
-</div>
 
-<br>
-<br>
-
+  <div class="container">
+      <div class="row">
+          {% for task in tasks %}
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title">{{ task.name }}</h5>
+                          <a href="{% url 'task_update' task.id %}" class="btn btn-sm btn-info">Edit</a>
+                          <a href="{% url 'task_delete' task.id%}" class="btn btn-sm btn-success">Delete</a>
+                      </div>
+                  </div>
+              </div>
+          {% empty %}
+              <p>No tasks available.</p>
+          {% endfor %}
+      </div>
+  </div>
+  <br>
+  <br>
+</section>
 {% endblock %}

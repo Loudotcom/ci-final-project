@@ -2,17 +2,18 @@
 {% load static %}
 
 {% block content %}
+<section>
+    <div class="complete-task">
+        <h2>Have you completed "{{ task.name }}", you absolute legend?</h2>
 
-<div class="complete-task">
-    <h2>Have you completed "{{ task.name }}", you absolute legend?</h2>
+        <form method="post">
 
-    <form method="post">
+            {% csrf_token %}
+        
+            <button type="submit" class="btn btn-success">Confirm Delete</button>
+            <a href="{% url 'task_list' %}" class="btn btn-secondary">Cancel</a>
 
-        {% csrf_token %}
-    
-        <button type="submit" class="btn btn-success">Confirm Delete</button>
-        <a href="{% url 'task_list' %}" class="btn btn-secondary">Cancel</a>
-
-    </form>
-</div>
+        </form>
+    </div>
+</section>
 {% endblock %}

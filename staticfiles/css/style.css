@@ -26,10 +26,11 @@ ul {
 
 .logo {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: auto;
+    width: 100%;
   }
   .logo img {
-    max-width: 350px; 
+    max-width: 300px; 
   }
 
   #turtle {
@@ -39,11 +40,26 @@ ul {
 
 /* Body Sign In */
 
-.intro-text {
-  display: flex;
+#landing-header {
   text-align: center;
-  margin: 20px;
-  margin-top: 50px;
+  margin: auto;
+}
+
+.btn-signup {
+  padding-bottom: 10px;
+}
+
+.txt-container {
+  justify-content: center;
+}
+
+p.intro-text, 
+h5.intro-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 20px;
 }
 
 /* Body Task List */
@@ -73,10 +89,13 @@ ul {
 
 /* Body Sign Up */
 
+.sign-in-box {
+  margin-bottom: 1rem;
+}
+
 .signup-div {
   text-align: center;
 }
-
 
   /* Footer Base */
 
@@ -88,7 +107,7 @@ ul {
     background-color: rgb(153, 11, 153);
     display: flex;
     justify-content: start;
-    height: 8%;
+    height: 6%;
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: black;
