@@ -2,9 +2,8 @@ from django.contrib.auth.models import User
 from django.db import models
 
 
-# Create your models here.
+# Task model
 
-# Task model 
 
 class Task(models.Model):
 
@@ -13,11 +12,12 @@ class Task(models.Model):
         ("in_progress", "In Progress"),
         ("completed", "Completed")
     )
-    
     name = models.CharField(max_length=100, blank=False)
     notes = models.TextField()
-    status = models.CharField(max_length=15, choices=options, default='pending')
-    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+    status = models.CharField(max_length=15,
+                              choices=options, default='pending')
+    user = models.ForeignKey(User, on_delete=models.CASCADE,
+                             null=True, blank=True)
 
     class Meta:
         ordering = ["name"]
