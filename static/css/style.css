@@ -37,6 +37,15 @@ ul {
     max-width: 100px;
   }
 
+/* Body Sign In */
+
+.intro-text {
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+}
+
 /* Body Task List */
 
 .create-task {
@@ -79,13 +88,13 @@ ul {
     background-color: rgb(153, 11, 153);
     display: flex;
     justify-content: start;
-    height: 5%;
+    height: 8%;
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: black;
 }
 
 #copyright {
-    font-weight: 500;
+    font-weight: 300;
     color: black;
 }
