@@ -28,7 +28,7 @@ User
 
 - As a Site User I can register for the site so that I can sign in and create to-do lists.
 
-- As a Site User I can sign in so that I can access my to-do list at any time
+- As a Site User I can sign in so that I can access my to-do list at any time.
    
  - As a Site User I can create, read, update and delete tasks so that I can keep my to-do list updated.
  
