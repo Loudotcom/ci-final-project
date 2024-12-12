@@ -24,6 +24,10 @@ ul {
 
 /* Body Base */
 
+body {
+  padding-bottom: 6vh;
+}
+
 .logo {
     text-align: center;
     margin-bottom: auto;
@@ -92,6 +96,7 @@ h5.intro-text {
 
 .sign-in-box {
   margin-bottom: 1rem;
+  margin-bottom: 8vh;
 }
 
 .signup-div {
@@ -117,4 +122,18 @@ h5.intro-text {
 #copyright {
     font-weight: 300;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+  .signup-div {
+      margin-bottom: 10vh;
+  }
+
+  .footer {
+      height: 8%;
+  }
+
+  body {
+      padding-bottom: 8vh;
+  }
 }
