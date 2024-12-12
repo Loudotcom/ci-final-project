@@ -232,3 +232,40 @@ Mobile - Sign Out Page
 I created the entity relationship diagram (ERD) above during the planning stage of my project. As I elected to keep to the minimum viable product and I wanted to keep my site simple from a usability point of view, I chose to use one entity with few basic attributes. 
 
 ***
+
+# Agile Methodologies - Project Management
+
+Using [Github Projects](https://github.com/users/Loudotcom/projects/4/views/1), I created a kanban board with 6 main user stories. 
+
+I used the MoSCoW prioritisation method to establish which features were most crucial to the project to create a minimal viable product (must-haves), which would add value to the project if time allowed (should-haves), desirable but not vital features (could-haves), and those features to be considered for future iterations (won't-haves).
+
+**The Must-Haves**
+
+Those related to CRUD functionality, as a project requirement, were my must-have features, as well as the ability for users to sign in and out of the site:
+
+
+![[Pasted image 20241211124351.png]]
+
+**The Should-Haves**
+
+The should-haves were features I planned to include in my final submission before I started writing the code.  A combination of style-choice and time-constraint meant I decided not to include them. However, these options are included in the model (see 'Status' and 'Notes' in the ERD above) and therefore can be easily implemented in the next iteration:
+
+![[Pasted image 20241211124407.png]]
+
+**The Could-Haves and The Won't-Haves**
+
+The could-have and won't-have user stories were related to the additional features below for possible future iterations. I had many creative ideas on how this MVP could be built upon to create a dynamic and appealing site.
+
+## Features Left to Implement
+
+In the next iteration, I would work to implement the Task Notes user story. I am not sure whether the Task Status user story would be the most important considering the target audience. I think the celebration image/video/audio or the customisation of profile/mascots/colour-themes would add more value. 
+
+- Add a deadline to tasks 
+- Categorise tasks
+- Image/video/audio once tasks marked as 'completed'
+- Add images to tasks
+- Create a profile
+- Share lists with other users
+- Add tasks to online calendar 
+
+***
