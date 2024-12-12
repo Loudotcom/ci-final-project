@@ -8,7 +8,7 @@ A simple and fun to-do list website.
 
 The live link, hosted on Heroku:  [Task_Buddies](https://final-code-institute-project-76c9d9aad788.herokuapp.com/)
 
-![[Pasted image 20241211213954.png]]
+![Am I Responsive](/media/Pastedimage20241211213954.png)
 
 ## Purpose of the project
 
@@ -72,28 +72,27 @@ Desktop - Sign Out Page
 
 Desktop - Home/Sign In Page
 
-![[Desktop Home View.png]]
+![Desktop Home View](/media/DesktopHomeView.png)
 
 Desktop - Sign Up Page
 
-![[Pasted image 20241211203957.png]]
-
+![Desktop Sign In Page](/media/Pastedimage20241211203957.png)
 
 Desktop - Task List 
 
-![[Pasted image 20241211204430.png]]
+![Desktop Task List](/media/Pastedimage20241211204430.png)
 
 Desktop - Edit Task Page
 
-![[Pasted image 20241211204459.png]]
+![Desktop Edit Page](/media/Pastedimage20241211204459.png)
 
 Desktop - Delete Task Page
 
-![[Pasted image 20241211204528.png]]
+![Desktop Delete Page](/media/Pastedimage20241211204528.png)
 
 Desktop - Sign Out Page
 
-![[Pasted image 20241211204753.png]]
+![Desktop Sign Out](/media/Pastedimage20241211204753.png)
 
 Tablet view:
 
@@ -249,7 +248,7 @@ Those related to CRUD functionality, as a project requirement, were my must-have
 
 The should-haves were features I planned to include in my final submission before I started writing the code.  A combination of style-choice and time-constraint meant I decided not to include them. However, these options are included in the model (see 'Status' and 'Notes' in the ERD above) and therefore can be easily implemented in the next iteration:
 
-![[Pasted image 20241211124407.png]]
+![Todo](/media/Pastedimage20241211124407.png)
 
 **The Could-Haves and The Won't-Haves**
 
@@ -358,7 +357,7 @@ views.py
 
 Please see below for a screenshot of the results of my views.py file. 
 
-![[Pasted image 20241212000540.png]]
+![Python](/media/Pastedimage20241212000540.png)
 
 ---
 
@@ -374,7 +373,7 @@ I carried out a test using the Lighthouse Chrome extension using incognito mode 
 
 To test for accessibility specifically, I used the Wave web accessibility evaluation tool. I have screenshot the result below. Again, I am pleased the site's accessibility standard was deemed satisfactory.
 
-![[Pasted image 20241211222815.png]]
+![Wave](/media/Pastedimage20241211222815.png)
 
 ---
 
