@@ -127,21 +127,15 @@ Tablet - Sign Out Page
 
 Mobile - Home/Sign In Page
 
-![[MobileHome-ezgif.com-video-to-gif-converter.mp4]]
-
-**Mobile View (Medium - 375px):**
-
-Mobile - Home/Sign In Page
-
-![[MobileHome-ezgif.com-video-to-gif-converter.mp4]]
+![Mobile Sign In Test](/media/MobileHome-ezgif.com-speed.gif)
 
 Mobile - Sign Up Page
 
-![[MobileSignUp-ezgif.com-video-to-gif-converter.mp4]]
+![Mobile Sign Up Test](/media/MobileSignUp-ezgif.com-speed.gif)
 
 Mobile - Task List 
 
-![[MobileTaskList-ezgif.com-video-to-gif-converter.mp4]]
+![Mobile Task List Test](/media/MobileTaskList-ezgif.com-speed.gif)
 
 Mobile - Edit Task Page
 
@@ -153,7 +147,7 @@ Mobile - Delete Task Page
 
 Mobile - Sign Out Page
 
-[Mobile Sign Out](/media/Pastedimage20241211215717.png)
+![Mobile Sign Out](/media/Pastedimage20241211215717.png)
 
 ***
 
