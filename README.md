@@ -241,7 +241,7 @@ I used the MoSCoW prioritisation method to establish which features were most cr
 Those related to CRUD functionality, as a project requirement, were my must-have features, as well as the ability for users to sign in and out of the site:
 
 
-![[Pasted image 20241211124351.png]]
+![Must Haves](/media/Pastedimage20241211124351.png)
 
 **The Should-Haves**
 
@@ -331,9 +331,9 @@ As each page included Django's Template Language (DTL), which was throwing error
 I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate my style.css file.
 
 
-![[Pasted image 20241212070054.png]]
+![W3C CSS Page 1](/media/Pastedimage20241212070054.png)
 
-![[Pasted image 20241212070117.png]]
+![W3C CSS Page 2](/media/Pastedimage20241212070117.png)
 
 ---
 
@@ -364,9 +364,9 @@ Please see below for a screenshot of the results of my views.py file.
 
 I carried out a test using the Lighthouse Chrome extension using incognito mode and screenshots of the resulting reports for mobile and desktop are below. Accessibility was an important factor in creating this website, so I am extremely pleased with this result.
 
-![[Pasted image 20241211222453.png]]
+![Lighthouse Mobile](/media/Pastedimage20241211222453.png)
 
-![[Pasted image 20241211222511.png]]
+![Lighthouse Desktop](/media/Pastedimage20241211222511.png)
 
 ### Wave Accessibility Evaluation
 
