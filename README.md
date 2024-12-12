@@ -379,6 +379,89 @@ To test for accessibility specifically, I used the Wave web accessibility evalua
 
 ---
 
+## Manual Testing
+
+All features were tested on different device sizes (Mobile, Tablet and Desktop) using the responsive mode in Google Chrome's developer tools and checked in the Microsoft Edge browser. Please see gifs below for manual test examples for a desktop-size screen on Google Chrome. 
+
+These same tests were carried out for mobile and tablet screen sizes. 
+
+A bug was found when testing the mobile screen size; on the sign up page for smaller and medium-sized mobile phone screens the sign up button was obscured by the footer. This was fixed by adding media queries to my style.css file.
+
+**Desktop** -  Sign Up
+
+Users can create an account with a username and password. 
+
+Result: Pass
+
+
+![[DesktopRegister-ezgif.com-video-to-gif-converter.mp4]]
+
+***
+
+**Desktop** - Create Task
+
+Users can create a task which then appears in their task list.
+
+Result: Pass
+
+![[DesktopAddTask-ezgif.com-video-to-gif-converter.mp4]]
+
+***
+
+**Desktop** - Edit Task
+
+Users can edit the tasks in their task list
+
+Result: Pass
+
+![[DesktopEditTask-ezgif.com-video-to-gif-converter.mp4]]
+
+***
+
+
+**Desktop** - Delete Task
+
+Users can delete the tasks in their task list.
+
+Result: Pass
+
+![[DesktopDeleteTask-ezgif.com-video-to-gif-converter.mp4]]
+
+***
+
+
+**Desktop** - Sign Out
+
+Users can sign out of their account.
+
+Result: Pass
+
+![[DesktopSignOut-ezgif.com-video-to-gif-converter.mp4]]
+
+***
+
+
+**Desktop** - Sign in
+
+Users can sign in to their account.
+
+Result: Pass
+
+![[DesktopSignIn-ezgif.com-video-to-gif-converter.mp4]]
+
+***
+
+
+**Desktop** - Return to Task List 
+
+When signed in and on the edit or delete pages, users can easily return to their task list.
+
+Result: Pass
+
+![[DesktopReturntoTaskList-ezgif.com-video-to-gif-converter.mp4]]
+
+
+---
 
 
 
