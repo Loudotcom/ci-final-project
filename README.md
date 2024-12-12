@@ -6,7 +6,7 @@ A simple and fun to-do list website.
 
 **Live website**
 
-The live link, hosted on Heroku:  ![Task_Buddies](https://final-code-institute-project-76c9d9aad788.herokuapp.com/)
+The live link, hosted on Heroku:  [Task Buddies](https://final-code-institute-project-76c9d9aad788.herokuapp.com/)
 
 ![Am I Responsive](/media/Pastedimage20241211213954.png)
 
@@ -67,6 +67,14 @@ Desktop - Delete Task Page
 Desktop - Sign Out Page
 
 ![Desktop Wireframe Sign Out](/media/Pastedimage20241212014647.png)
+
+Mobile - Sign In Page
+
+![Mobile Wireframe Sign In](/media/Mobwireframe.png)
+
+Tablet - Sign In Page
+
+![Tablet Wireframe Sign In](/media/Tabwireframe.png)
 
 ## Final View
 
