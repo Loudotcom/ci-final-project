@@ -392,8 +392,7 @@ Users can create an account with a username and password.
 
 Result: Pass
 
-
-![[DesktopRegister-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Sign In Test](/media/DesktopRegister-ezgif.com-video-to-gif-converter.mp4)
 
 ***
 
