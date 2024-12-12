@@ -13,21 +13,25 @@
                     <div class="card-body p-4">
                         <!-- Card Header section -->
                         <section>
+                            <div>
                                <p class="text-center brand-text"></p>
+                            </div>
                         </section>
                         <!-- Edit Task Form -->
                         <section>
-                            <form method="POST" action="{% url 'task_update' task.id %}" class="row g-3 justify-content-center align-items-center mb-4 pb-2">
-                                {% csrf_token %}
-                                <div class="col-12">
-                                    <label for="task" class="form-label">Edit task:</label>
-                                    <input type="text" id="task" class="form-control" name="name" value="{{ task.name }}" maxlength="60" required>
-                                </div>
-                                <div class="col-12">
-                                    <a href="{% url 'task_list' %}" class="btn btn-secondary">Back</a>
-                                    <button type="submit" class="btn btn-info">Update Task</button>
-                                </div>
-                            </form>
+                            <div>
+                                <form method="POST" action="{% url 'task_update' task.id %}" class="row g-3 justify-content-center align-items-center mb-4 pb-2">
+                                    {% csrf_token %}
+                                    <div class="col-12">
+                                        <label for="task" class="form-label">Edit task:</label>
+                                        <input type="text" id="task" class="form-control" name="name" value="{{ task.name }}" maxlength="60" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="{% url 'task_list' %}" class="btn btn-secondary">Back</a>
+                                        <button type="submit" class="btn btn-info">Update Task</button>
+                                    </div>
+                                </form>
+                            </div>    
                         </section>
                     </div>
                 </div>
