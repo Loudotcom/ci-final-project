@@ -392,7 +392,7 @@ Users can create an account with a username and password.
 
 Result: Pass
 
-![Desktop Sign In Test](/media/DesktopRegister-ezgif.com-video-to-gif-converter.mp4)
+![Desktop Sign In Test](/media/DesktopRegister-ezgif.com-speed.gif)
 
 ***
 
@@ -402,7 +402,7 @@ Users can create a task which then appears in their task list.
 
 Result: Pass
 
-![[DesktopAddTask-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Create Task Test](/media/DesktopAddTask-ezgif.com-speed.gif)
 
 ***
 
@@ -412,7 +412,7 @@ Users can edit the tasks in their task list
 
 Result: Pass
 
-![[DesktopEditTask-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Edit Task Test](/media/DesktopEditTask-ezgif.com-speed.gif)
 
 ***
 
@@ -423,7 +423,7 @@ Users can delete the tasks in their task list.
 
 Result: Pass
 
-![[DesktopDeleteTask-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Delete Task Test](/media/DesktopDeleteTask-ezgif.com-speed.gif)
 
 ***
 
@@ -434,7 +434,7 @@ Users can sign out of their account.
 
 Result: Pass
 
-![[DesktopSignOut-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Sign Out Test](/media/DesktopSignOut-ezgif.com-speed.gif)
 
 ***
 
@@ -445,7 +445,7 @@ Users can sign in to their account.
 
 Result: Pass
 
-![[DesktopSignIn-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Sign In Test](/media/DesktopSignIn-ezgif.com-speed.gif)
 
 ***
 
@@ -456,7 +456,7 @@ When signed in and on the edit or delete pages, users can easily return to their
 
 Result: Pass
 
-![[DesktopReturntoTaskList-ezgif.com-video-to-gif-converter.mp4]]
+![Desktop Return to Task List Test](/media/DesktopReturntoTaskList-ezgif.com-speed.gif)
 
 
 ---
