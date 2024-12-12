@@ -147,13 +147,11 @@ Mobile - Edit Task Page
 
 Mobile - Delete Task Page
 
-
-![Mobile Delete Task](/media/)
-
+![Mobile Delete Task](/media/Pastedimage20241211215634.png)
 
 Mobile - Sign Out Page
 
-
+[Mobile Sign Out](/media/Pastedimage20241211215717.png)
 
 ***
 
@@ -226,7 +224,7 @@ Mobile - Sign Out Page
 
 # Database Schema - Entity Relationship Diagram
 
-![[Pasted image 20241128112655.png]]
+![ERD](/media/Pastedimage20241128112655.png)
 
 I created the entity relationship diagram (ERD) above during the planning stage of my project. As I elected to keep to the minimum viable product and I wanted to keep my site simple from a usability point of view, I chose to use one entity with few basic attributes. 
 
