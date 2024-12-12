@@ -463,5 +463,41 @@ Result: Pass
 
 ---
 
+## Credits
 
+
+- I used a previous successful Code Institute to-do project called [Task Genie]([https://todo-genie-65081f96d293.herokuapp.com/accounts/login/?next=/](https://todo-genie-65081f96d293.herokuapp.com/accounts/login/?next=/)) by [Tedbot2000]([https://github.com/Code-Institute-Submissions/todo-genie-01](https://github.com/Code-Institute-Submissions/todo-genie-01)) as inspiration
+
+ - In preparation for my project I coded along with two walkthrough Django to-do list projects on YouTube which I used to help me create the first draft of my code:
+
+	 - YouTube Channel: Dennis Ivy 
+		 [https://www.youtube.com/watch?v=llbtoQTt4qw](https://www.youtube.com/watch?v=llbtoQTt4qw)
+		 [https://github.com/divanov11/Django-To-Do-list-with-user-authentication](https://github.com/divanov11/Django-To-Do-list-with-user-authentication) 
+		
+	- YouTube Channel: Cloud With Django 
+		 [https://www.youtube.com/watch?v=sHieKUtwQcM](https://www.youtube.com/watch?v=sHieKUtwQcM)
+		 [https://github.com/cloud-with-django/Django-task-list-app-Project-3-YT](https://github.com/cloud-with-django/Django-task-list-app-Project-3-YT)
+
+
+- For some practical steps in Django I used the Codestar Blog project from [Code Institute](https://learn.codeinstitute.net/) as a guide
+
+- I used the AI tool [Perplexity](https://www.perplexity.ai/) throughout production for debugging
+
+- I used the ReadMe by [Hata-na-tata](https://github.com/Anka-S/hata-na-tata/) by [Anka-S](https://github.com/Anka-S) as inspiration and a template for this document
+
+---
+
+## Content
+
+- I created the Task Buddies logo using [logo.com](https://logo.com/) and the favicon was automatically generated from my finalised logo by the site
+
+- I created the tortoise sprite using the AI image generator [Microsoft Create](https://create.microsoft.com/en-us/features/ai-image-generator) 
+
+- The CDN framework used for ready-made styling was [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/download/)
+
+- [Balsamiq](https://balsamiq.com/) was used for wireframe
+
+- [Perplexity](https://www.perplexity.ai/) was used for writing the text in the Home/Sign In page
+
+---
 
