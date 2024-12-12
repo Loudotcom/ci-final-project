@@ -143,17 +143,17 @@ Mobile - Task List
 
 Mobile - Edit Task Page
 
-![[Pasted image 20241211215609.png]]
+![Mobile Sign Out](/media/Pastedimage20241211215609.png)
 
 Mobile - Delete Task Page
 
 
-![[Pasted image 20241211215634.png]]'
+![Mobile Delete Task](/media/)
 
 
 Mobile - Sign Out Page
 
-![[Pasted image 20241211215717.png]]
+
 
 ***
 
