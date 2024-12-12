@@ -98,27 +98,28 @@ Tablet view:
 
 Tablet - Home/Sign In Page
 
-![[Pasted image 20241211205620.png]]
-
+![Tablet Sign In Page](/media/Pastedimage20241211205620.png)
 
 Tablet - Sign Up Page
 
-![[Pasted image 20241211205637.png]]
+![Tablet Sign Up](/media/Pastedimage20241211205637.png)
 
 Tablet - Task List 
-![[Pasted image 20241211220118.png]]
+
+![Tablet Task List](/media/Pastedimage20241211220118.png)
 
 Tablet - Edit Task Page
-![[Pasted image 20241211220055.png]]
+
+![Tablet Edit Task](/media/Pastedimage20241211220055.png)
 
 Tablet - Delete Task Page
 
-![[Pasted image 20241211220147.png]]
+![Tablet Delete Task](/media/Pastedimage20241211220147.png)
 
 
 Tablet - Sign Out Page
 
-![[Pasted image 20241211205543.png]]
+![Tablet Sign Out](/media/Pastedimage20241211205543.png)
 
 **Mobile View (Medium - 375px):**
 
