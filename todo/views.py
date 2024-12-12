@@ -46,6 +46,7 @@ class TaskCreateView(LoginRequiredMixin, CreateView):
         form.instance.user = self.request.user
         return super().form_valid(form)
 
+
 class TaskUpdate(LoginRequiredMixin, UpdateView):
     model = Task
     fields = ['name']
@@ -59,11 +60,13 @@ class TaskUpdate(LoginRequiredMixin, UpdateView):
         return response
 
     def form_invalid(self, form):
-        messages.error(self.request, 'Failed to update task. Please try again!')
+        messages.error(self.request,
+                       'Failed to update task. Please try again!')
         return super().form_invalid(form)
 
     def get_queryset(self):
         return Task.objects.filter(user=self.request.user)
+
 
 class TaskDeleteView(LoginRequiredMixin, DeleteView):
     model = Task
