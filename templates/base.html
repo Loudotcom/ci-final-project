@@ -14,7 +14,18 @@
   </head>
   <body>
 
+    <!-- Success/Error Message -->
+
+    {% if messages %}
+    {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endif %}
+
   <!-- Navbar -->
+   
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
