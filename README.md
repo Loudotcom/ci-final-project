@@ -269,3 +269,49 @@ In the next iteration, I would work to implement the Task Notes user story. I am
 - Add tasks to online calendar 
 
 ***
+
+# Deployment
+
+## Connecting to GitHub 
+
+Following the below steps and [Code Institute's Github Template](https://github.com/Code-Institute-Org/ci-full-template), I created a repository which was editable locally in Gitpod and stored in a remote repository in my Github account.
+
+1. Log in to [GitHub](https://github.com/) or create a new account.
+2. Navigate to the above CI Full Template.
+3. Click '**Use this template**' -> '**Create a new repository**'.
+4. Choose a new, relevant repository name and click '**Create repository'.
+5. To create a new workspace in Gitpod, click the green '**Open**' button and as long as Gitpod is an extension in your browser, it will open in Gitpod.
+
+## Django Project Setup
+
+To set up my Django project, I followed the following [Setup & Deployment Guidebook 2024](https://docs.google.com/document/d/1-r9y0sGzJf7iusWypPUd2Qrf9ODoslHfmzpAq0G2OU0/edit?tab=t.0#heading=h.qwn8zjty0594)
+
+## Heroku deployment
+
+To start the deployment process, please follow the below steps:
+
+1. Log in to [Heroku](https://id.heroku.com/login) or create an account if you are a new user, this may require two-factor authentication.
+    
+2. Once logged in, in the Heroku Dashboard, navigate to the '**New**' button in the top, right corner, and select '**Create New App**'.
+    
+3. Enter an app name and choose your region. Click '**Create App**'.
+    
+4. In the Deploy tab, click on the '**Settings**', reach the '**Config Vars**' section and click on '**Reveal Config Vars**'. Here you will enter KEY:VALUE pairs for the app to run successfully. The KEY:VALUE pairs that you will need are your:
+    
+    - **CLOUDINARY_URL** : **cloudinary://....**
+    - **DATABASE_URL** : **postgres://...**
+    - **DISABLE_COLLECTSTATIC** of value '1' (N.B Remove this Config Var before deployment),
+    - **SECRET_KEY** and value
+    
+5. Add the Heroku URL for your live site into **ALLOWED_HOSTS** in your projects **settings.py file**.
+    
+6. Once you are sure that you have set up the required files including your requirements.txt and Procfile, you have ensured that **DEBUG=False**, save your project, add the files, commit for initial deployment and push the data to GitHub.
+    
+7. Go to the '**Deploy**' tab and choose GitHub as the Deployment method.
+    
+8. Search for the repository name, select the branch that you would like to build from, and connect it via the '**Connect**' button.
+    
+9. Choose from '**Automatic**' or '**Manual**' deployment options, I chose the 'Manual' deployment method. Click '**Deploy Branch**'.
+    
+10. Once the waiting period for the app to build has finished, click the '**View**' link to bring you to your newly deployed site. If you receive any errors, Heroku will display a reason in the app build log for you to investigate. **DISABLE_COLLECTSTATIC** may be removed from the Config Vars once you have saved and pushed any image and/or CSS code within your project.
+
