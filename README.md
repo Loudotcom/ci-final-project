@@ -46,25 +46,27 @@ Desktop
 
 Desktop - Home/Sign In Page
 
-![[Pasted image 20241212013137.png]]
+![Desktop Wireframe Sign In](/media/Pastedimage20241212013137.png)
 
 Desktop - Sign Up Page
 
-![[Pasted image 20241212013355.png]]
+![Desktop Wireframe Sign Up](/media/Pastedimage20241212013355.png)
 
 Desktop - Task List 
 
-![[Pasted image 20241212014124.png]]
+![Destop Wireframe Task List](/media/Pastedimage20241212014124.png)
+
 Desktop - Edit Task Page 
 
-![[Pasted image 20241212014339.png]]
+![Desktop Wireframe Edit Task](/media/Pastedimage20241212014339.png)
+
 Desktop - Delete Task Page
 
-![[Pasted image 20241212014519.png]]
+![Desktop Wireframe Delete Task](/media/Pastedimage20241212014519.png)
 
 Desktop - Sign Out Page
 
-![[Pasted image 20241212014647.png]]
+![Desktop Wireframe Sign Out](/media/Pastedimage20241212014647.png)
 
 ## Final View
 
