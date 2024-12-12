@@ -161,17 +161,15 @@ Mobile - Sign Out Page
 
 ## Existing Features
 
-**Success/Error Message
+**Success/Error Message**
 
 - Users can see when they have successfully signed out and edited tasks from their task list from a banner message at the top of the screen. Otherwise, an error message is displayed.
 
-![[Pasted image 20241212113913.png]]
+![Feature1](/media/Pastedimage202412121140131.png)
 
+![Feature2](/media/Pastedimage20241212113913.png)
 
-![[Pasted image 20241212114013.png]]
-
-
-![[Pasted image 20241212113023.png]]
+![Feature3](/media/Pastedimage20241212113023.png)
 
 ***
 
@@ -179,7 +177,7 @@ Mobile - Sign Out Page
 
 - I designed this logo with the help of [Logo.com](https://www.logo.com/)'s logo generator. I liked the informal but easy-to-read font and customised it by changing the colour to a vibrant purple and adding the paw print over the 'i' of 'buddies' to reference the multiple animal mascots to be added in future iterations. I plan for the colour of the logo to be customisable by the user.
 
-![[Pasted image 20241212091126.png]]
+![Logo](/media/Pastedimage20241212091126.png)
 
 ***
 
@@ -187,7 +185,7 @@ Mobile - Sign Out Page
 
 - I kept the navbar simple, with a clean white background and the links to other pages in a standard grey font.
 
-![[Pasted image 20241212091144.png]]
+![Navbar](/media/Pastedimage20241212091144.png)
 
 ***
 
@@ -195,13 +193,14 @@ Mobile - Sign Out Page
 
 - Site users can sign up, sign in, and sign out, keeping their task lists saved for future visits.
 
-![[Pasted image 20241212092300.png]]
-![[Pasted image 20241212092328.png]]
+![Auth1](/media/Pastedimage20241212092300.png)
+![Auth2](/media/Pastedimage20241212092328.png)
+
 ***
 
-**Mascot
+**Mascot**
 
-![[Pasted image 20241212091324.png]]
+![Mascot](/media/Pastedimage20241212091324.png)
 
 - One of my main features/elements, and that sets my to-do list apart, is the addition of an animal mascot. I plan to introduce many animal characters that users can choose from, they could interact in some way with the user, through animation or with supportive messages.
 
@@ -211,7 +210,7 @@ Mobile - Sign Out Page
 
 - The footer section currently has copyright information, and there are options to easily add additional links as the site grows. The colour of the footer matches the logo color to keep consistency and frame the site.
 
-![[Pasted image 20241212091341.png]]
+![Footer](/media/Pastedimage20241212091341.png)
 
 ***
 
@@ -499,5 +498,5 @@ Result: Pass
 
 - [Perplexity](https://www.perplexity.ai/) was used for writing the text in the Home/Sign In page
 
----
 
+---
