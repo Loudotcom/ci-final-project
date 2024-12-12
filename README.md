@@ -224,3 +224,11 @@ Mobile - Sign Out Page
 - A valuable feature for the next iteration would be to add more of a celebration when a user completes (i.e. deletes) a task. Currently, there is a simple encouraging message above the buttons on the Delete Task page but there are many options for media or messages upon completion. As with the colour scheme and mascot, I would like this to eventually be customisable by each user individually so they make a task page that looks and interacts with them in a way that is uniquely theirs.
 
 ***
+
+# Database Schema - Entity Relationship Diagram
+
+![[Pasted image 20241128112655.png]]
+
+I created the entity relationship diagram (ERD) above during the planning stage of my project. As I elected to keep to the minimum viable product and I wanted to keep my site simple from a usability point of view, I chose to use one entity with few basic attributes. 
+
+***
