@@ -6,7 +6,7 @@ A simple and fun to-do list website.
 
 **Live website**
 
-The live link, hosted on Heroku:  [Task_Buddies](https://final-code-institute-project-76c9d9aad788.herokuapp.com/)
+The live link, hosted on Heroku:  ![Task_Buddies](https://final-code-institute-project-76c9d9aad788.herokuapp.com/)
 
 ![Am I Responsive](/media/Pastedimage20241211213954.png)
 
@@ -319,6 +319,7 @@ To start the deployment process, please follow the below steps:
 I used [HTML W3C Validator](https://validator.w3.org/) to validate my HTML files. 
 As each page included Django's Template Language (DTL), which was throwing errors, I used the 'view page source' option after right-clicking the site in the browser, and copying the code into the 'validate by input' option.
 
+![W3C HTML Validator](/media/Screenshot2024-12-12-145627.png)
 
 ---
 
