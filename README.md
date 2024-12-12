@@ -315,3 +315,70 @@ To start the deployment process, please follow the below steps:
     
 10. Once the waiting period for the app to build has finished, click the '**View**' link to bring you to your newly deployed site. If you receive any errors, Heroku will display a reason in the app build log for you to investigate. **DISABLE_COLLECTSTATIC** may be removed from the Config Vars once you have saved and pushed any image and/or CSS code within your project.
 
+***
+
+# Testing
+
+## Validator Testing
+
+### HTML
+
+I used [HTML W3C Validator](https://validator.w3.org/) to validate my HTML files. 
+As each page included Django's Template Language (DTL), which was throwing errors, I used the 'view page source' option after right-clicking the site in the browser, and copying the code into the 'validate by input' option.
+
+
+---
+
+### CSS
+
+I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate my style.css file.
+
+
+![[Pasted image 20241212070054.png]]
+
+![[Pasted image 20241212070117.png]]
+
+---
+
+### JavaScript
+
+All JavaScript code included in my project was imported and I have not made any additional changes, therefore it has not been validated.
+
+---
+
+### Python Validation
+
+I used [CI Python Linter](https://pep8ci.herokuapp.com/#) to validate the Python code in files that I created or edited. 
+
+I validated the following files, which all returned 'All clear, no errors found':
+admin.py
+forms.py
+models.py
+urls.py
+views.py
+
+Please see below for a screenshot of the results of my views.py file. 
+
+![[Pasted image 20241212000540.png]]
+
+---
+
+### Lighthouse Report
+
+I carried out a test using the Lighthouse Chrome extension using incognito mode and screenshots of the resulting reports for mobile and desktop are below. Accessibility was an important factor in creating this website, so I am extremely pleased with this result.
+
+![[Pasted image 20241211222453.png]]
+
+![[Pasted image 20241211222511.png]]
+
+### Wave Accessibility Evaluation
+
+To test for accessibility specifically, I used the Wave web accessibility evaluation tool. I have screenshot the result below. Again, I am pleased the site's accessibility standard was deemed satisfactory.
+
+![[Pasted image 20241211222815.png]]
+
+---
+
+
+
+
