@@ -156,3 +156,71 @@ Mobile - Sign Out Page
 ![[Pasted image 20241211215717.png]]
 
 ***
+
+# Features
+
+## Existing Features
+
+**Success/Error Message
+
+- Users can see when they have successfully signed out and edited tasks from their task list from a banner message at the top of the screen. Otherwise, an error message is displayed.
+
+![[Pasted image 20241212113913.png]]
+
+
+![[Pasted image 20241212114013.png]]
+
+
+![[Pasted image 20241212113023.png]]
+
+***
+
+**The Logo**
+
+- I designed this logo with the help of [Logo.com](https://www.logo.com/)'s logo generator. I liked the informal but easy-to-read font and customised it by changing the colour to a vibrant purple and adding the paw print over the 'i' of 'buddies' to reference the multiple animal mascots to be added in future iterations. I plan for the colour of the logo to be customisable by the user.
+
+![[Pasted image 20241212091126.png]]
+
+***
+
+**Navbar**
+
+- I kept the navbar simple, with a clean white background and the links to other pages in a standard grey font.
+
+![[Pasted image 20241212091144.png]]
+
+***
+
+**Authorisation**
+
+- Site users can sign up, sign in, and sign out, keeping their task lists saved for future visits.
+
+![[Pasted image 20241212092300.png]]
+![[Pasted image 20241212092328.png]]
+***
+
+**Mascot
+
+![[Pasted image 20241212091324.png]]
+
+- One of my main features/elements, and that sets my to-do list apart, is the addition of an animal mascot. I plan to introduce many animal characters that users can choose from, they could interact in some way with the user, through animation or with supportive messages.
+
+***
+
+**Footer
+
+- The footer section currently has copyright information, and there are options to easily add additional links as the site grows. The colour of the footer matches the logo color to keep consistency and frame the site.
+
+![[Pasted image 20241212091341.png]]
+
+***
+
+**Notes**
+
+- The ability to add notes to a task would be a useful next feature, as at the moment users are restricted to the task name word limit.
+
+**Message/Media Upon Completion**
+
+- A valuable feature for the next iteration would be to add more of a celebration when a user completes (i.e. deletes) a task. Currently, there is a simple encouraging message above the buttons on the Delete Task page but there are many options for media or messages upon completion. As with the colour scheme and mascot, I would like this to eventually be customisable by each user individually so they make a task page that looks and interacts with them in a way that is uniquely theirs.
+
+***
